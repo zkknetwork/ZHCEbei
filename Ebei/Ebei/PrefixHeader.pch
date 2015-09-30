@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  Ebei
+//
+//  Created by 智恒创 on 15/9/23.
+//  Copyright (c) 2015年 mac. All rights reserved.
+//
+#import <Availability.h>
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+/******应用基本文件*****/
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+/******应用包Global基本文件--start*****/
+#import <QuartzCore/QuartzCore.h>
+#import "Singleton.h"
+#endif
